@@ -1,0 +1,105 @@
+
+html{
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pricing-box{
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 20px;
+    flex-basis: 250px;
+    height: 400px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+#Free{
+    background-color: #6de4fa;
+}
+
+#Pro{
+    background-color: #fdd64d;
+}
+
+#Business{
+    background-color: #ffb4bb;
+}
+
+.pricing-title{
+    font-size: 20px;
+}
+
+.price{
+    
+    font-size: 50px;
+}
+
+.price > span{
+    font-size: 15px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+.button{
+    position: absolute;
+    top: 85%;
+    margin-left: 5px;
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media(max-width:980px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .pricing-box{
+        flex-basis:450px;
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    #heading{
+        width: 2rem;
+        margin-left: 30%;
+    }
+
+    #paragraph{
+        text-align: center;
+    }
+
+    .button{
+        margin-left: 5%;
+    }
+}
