@@ -78,7 +78,7 @@ ul{
     font-family: 'Open Sans', sans-serif;
 }
 
-@media(max-width:980px){
+@media(max-width:1080px){
     .container{
         flex-direction: column;
         height: 100%;
